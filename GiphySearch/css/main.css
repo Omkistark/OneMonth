@@ -1,0 +1,54 @@
+body {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #031634;
+}
+p
+{
+	font-family: "Lucida Console", "Courier New", sans-serif;
+	font-size: 25px;
+	color: #E8DDCB;
+}
+.container-padding50 {
+	padding-top: 50px;
+}
+
+.container-textinput {
+	width: 80%;
+	max-height: 100px;
+	display: inline-block;
+	padding: 3%;
+	font-size: 70%;
+	font-family: Helvetica, sans-serif;
+	margin:0 0 25px ;
+}
+
+.container-button {
+	width: 10%;
+	display: inline-block;
+	padding: 2%;
+	background-color: green;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	border: 1px solid green;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.container-image {
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right:3%;
+}
+@media only screen and (max-width: 650px)
+{
+  .container-button{
+  	width: 80px;
+  	display: block;
+    padding: 11px;
+	margin-left: 35%;
+  }
+}
